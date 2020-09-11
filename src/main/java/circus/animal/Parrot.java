@@ -1,6 +1,10 @@
 package circus.animal;
 
 public class Parrot extends Bird {
+    public Parrot(String name) {
+        this.name = name;
+    }
+
     @Override
     public String speak() {
         return "Polly wants a cracker";
